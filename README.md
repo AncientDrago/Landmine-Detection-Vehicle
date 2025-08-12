@@ -77,7 +77,6 @@ This vehicle combines a metal detector circuit with a NodeMCU (ESP8266) to ident
 ---
 
 
-
 ## 🚀 Future Enhancements
 - 📍 GPS integration for location tagging of detected mines  
 - 📷 Camera module for remote visual inspection  
@@ -85,11 +84,9 @@ This vehicle combines a metal detector circuit with a NodeMCU (ESP8266) to ident
 - ☀️ Solar-powered chassis for extended field operation  
 
 
-
-🤝 Contributing
+## 🤝 Contributing
 Pull requests are welcome! If you have suggestions for improvements or want to add new features, feel free to fork the repo and submit a PR.
 
 
-
-📄 License
+## 📄 License
 This project is licensed under the MIT License. See the LICENSE file for details.
