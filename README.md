@@ -8,7 +8,6 @@ A low-cost, semi-autonomous robotic system designed to detect buried landmines u
 - [Hardware Components](#hardware-components)
 - [Software & Firmware](#software--firmware)
 - [Setup Instructions](#setup-instructions)
-- [Applications](#applications)
 - [Future Enhancements](#future-enhancements)
 - [Contributing](#contributing)
 - [License](#license)
@@ -73,3 +72,17 @@ This vehicle combines a metal detector circuit with a NodeMCU (ESP8266) to ident
 - Place metallic objects under the surface.
 - Monitor serial output or LED/buzzer alerts.
 
+
+🚀 Future Enhancements
+- GPS integration for location tagging of detected mines
+- Camera module for remote visual inspection
+- AI-based terrain mapping and autonomous path planning
+- Solar-powered chassis for extended field operation
+
+
+🤝 Contributing
+Pull requests are welcome! If you have suggestions for improvements or want to add new features, feel free to fork the repo and submit a PR.
+
+
+📄 License
+This project is licensed under the MIT License. See the LICENSE file for details.
