@@ -42,7 +42,8 @@ This vehicle combines a metal detector circuit with a NodeMCU (ESP8266) to ident
 - **Libraries Used**:
   - `ESP8266WiFi.h` – for Wi-Fi communication
 
-
+### Front View
+![Front View](images/vehicle_front_view.jpg)
 
 ---
 
