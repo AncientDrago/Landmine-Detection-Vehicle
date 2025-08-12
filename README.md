@@ -44,44 +44,51 @@ This vehicle combines a metal detector circuit with a NodeMCU (ESP8266) to ident
 ### Front View
 ![Front View](images/vehicle_front_view.jpg)
 
----
-
-## 📄 Supporting Files
-
-### `docs/setup_instructions.md`
-
-```markdown
 # 🛠️ Setup Instructions
 
-## 1. Hardware Assembly
-- Mount motors and wheels to the chassis.
-- Connect the metal detector output to NodeMCU analog pin (A0).
-- Wire the L298N motor driver to the NodeMCU digital pins and motors.
-- Add LEDs or a buzzer for detection alerts.
+---
 
-## 2. Firmware Upload
-- Open Arduino IDE.
-- Install ESP8266 board manager.
-- Upload `detection_vehicle.ino` from `firmware/`.
+## 1. 🔧 Hardware Assembly
+- Mount motors and wheels to the chassis  
+- Connect the metal detector output to NodeMCU analog pin **A0**  
+- Wire the **L298N motor driver** to NodeMCU digital pins and motors  
+- Add **LEDs or a buzzer** for detection alerts  
 
-## 3. Power Supply
-- Use 12V battery for motors and 5V regulated supply for NodeMCU.
-- Ensure common ground between all components.
+---
 
-## 4. Testing
-- Place metallic objects under the surface.
-- Monitor serial output or LED/buzzer alerts.
+## 2. 💻 Firmware Upload
+- Open **Arduino IDE**  
+- Install **ESP8266 board manager** via Board Manager  
+- Upload `detection_vehicle.ino` from the `firmware/` folder  
+
+---
+
+## 3. 🔋 Power Supply
+- Use a **12V battery** for motors  
+- Provide a **5V regulated supply** for NodeMCU  
+- Ensure a **common ground** between all components  
+
+---
+
+## 4. 🧪 Testing
+- Place metallic objects under the surface  
+- Monitor **serial output** or **LED/buzzer alerts** for detection  
+
+---
 
 
-🚀 Future Enhancements
-- GPS integration for location tagging of detected mines
-- Camera module for remote visual inspection
-- AI-based terrain mapping and autonomous path planning
-- Solar-powered chassis for extended field operation
+
+## 🚀 Future Enhancements
+- 📍 GPS integration for location tagging of detected mines  
+- 📷 Camera module for remote visual inspection  
+- 🧠 AI-based terrain mapping and autonomous path planning  
+- ☀️ Solar-powered chassis for extended field operation  
+
 
 
 🤝 Contributing
 Pull requests are welcome! If you have suggestions for improvements or want to add new features, feel free to fork the repo and submit a PR.
+
 
 
 📄 License
